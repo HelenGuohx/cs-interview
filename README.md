@@ -1,8 +1,8 @@
-Job searching can be fun. This is the time when you have an in depth understanding of yourself, your past experience, and your future plans.
+Job search can be fun. This is the time when you have an in depth understanding of yourself, your past experience, and your future plans.
 Most of all, you will study and become a better person. 
 After three months of job searching, you may say "I am more knowledgeable than me three months ago"
 
-### Here is the process of job searching
+### Here is the process of job search
 
 ```flow
 st=>start: Google "How to land a job in software engineering" 
