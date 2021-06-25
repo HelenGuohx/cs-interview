@@ -4,32 +4,45 @@ After three months of job search, you may say "I am more knowledgeable than me t
 
 ### Who should read this
 - You are looking for jobs in software engineering 
-- You want to know what to study and how much you should study to get a job
 - You want to know those things that helps you land a job including 
 resume/cover letter, job application, interviews, and offers, 
+- You want to know what to study and how much you should study to get a job
 
 
 ### Here is the process of job search
- ![To be done]()
+ ![To be done](img/Interview_process_diagram.png)
  
 ### Table of content
-[Search as much information as possible](#Search as much information as possible)
-
-[How to crack the interview]( #how to crack the interview)
-
+- [Search as much information as possible](#Search as much information as possible)
+- [Basic data structure and algorithm](#Basic data structure and algorithm)
+- [How to get related experience](#How to get related experience)
+- [Resume/cover letter](#Resume/cover letter)
+- [Daily tasks](#Daily tasks)
+    - [Tips for applying for jobs](##Tips for applying for jobs)
+    - [Code, code, code](##Code code code)
+    - [Study advanced cs knowledge](##Study advanced cs knowledge)
+- [How to crack tech interviews](#How to crack tech interviews)
+    - [Typical interview process](##Typical interview process)
+    - [Before the interview](##Before the interview)
+    - [During the interview](During the interview)
+    - [Post interview](Post interview)
+- [Negotiate Job offers](#Negotiate Job offers)
+- [Tech company interviews](#Tech company interviews)
+- [Study](#Study)
 
 
 # Search as much information as possible
-
 
 Before you start to take any action, it would be a good idea to learn from others' experience.
 It can make sure you are in the right track of landing a job and 
 help you avoid some failures. 
 First of all, go through this repository.
 
-If you have enough time, read the following materials: 
+
+If you have enough time, read the following materials to prepare for your interviews: 
 - Cracking the coding interview by Gayle Laakmann McDowel
 - [How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/)
+- [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
 
 
 # Basic data structure and algorithm
@@ -96,10 +109,12 @@ in log-in time"
 Check [Action Words for Engineering](https://www.engineering.cornell.edu/sites/default/files/users/user240/Action%20Words%20for%20ENG%20(website).pdf) that covers action words in different aspects 
 
 ### Resume template
-- Overleaf template. [TonyStack_SoftwareEngineer_Resume](downloads/main.tex)
+- Overleaf template. [TonyStack_SoftwareEngineer_Resume](downloads/main.tex). Overleaf is a great tool for resumes. You can add multiple experiences without worrying about the format. The format is consistent with the same command. 
+Read [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn)
 - Word template. https://www.crackingthepminterview.com/resources.html
 
 
+ 
 ### Cover letter
 - Short. around 200 - 250 words
 - Show passion about the technology and the industry
@@ -114,16 +129,26 @@ Check [Action Words for Engineering](https://www.engineering.cornell.edu/sites/d
 
 
 # Daily tasks
-####  Make a plan
+## Make a plan
+It is always good to make plans beforehand. You daily plan should include
+- How many jobs to apply 
+- How many coding questions to solve 
+- What subject to study
 
-##  Tips for applying for jobs
+A possible plan would be
+- Apply at least 5 jobs in 2 hrs
+- Solve 3 to 5 questions in 4 hrs
+- Study Design Pattern for 3hrs
+
+## Tips for applying for jobs
 - Position. Match your skills with jobs (Important for college students and new grads)
+    (TBD)
 - Networking (Recommend)
     - Friends/classmates/professors. Send an email or message to them and tell them you are looking for jobs. Ask them for advice or referral
     - Linkedin. 
         - Connect your alumni/friends/recruiters/employees in a company you are interested in. 
         Expand your network by adding people you don't know but you want to know
-        - Ask your connection about who you are and why you are interested in the role and company, then ask for referral politely.
+        - Tell your connection about who you are and why you are interested in the role and company, then ask for referral politely.
         Sometimes people would love to help you just because they can feel the struggle of searching for jobs
         - Get LinkedIn Premium. Set your profile to be open. It will boost your chance to let recruiter know you. 
         - Search people tagged by "#hiring" and connect with them or send them inMail.
@@ -131,7 +156,7 @@ Check [Action Words for Engineering](https://www.engineering.cornell.edu/sites/d
     - Pramp. Pramp is a website that you can practice mock interviews with peers or friends. It matches peers who are preparing for interviews. 
     It includes coding questions, behavior questions, and system design. 
     The best thing about Pramp is that you can make a good relationship with peers. You can help each other by practicing interviews, asking referrals.  
-    Pramp is free. But You need credits to schedule an mock interview. One credit for one practice. 
+    Pramp is free. But You need credits to schedule an mock interview. One credit per practice. 
     Register using my link: https://www.pramp.com/invt/lYAX1pZJoMCmZJ00xmoa. Both can get extra credits.
     
     - 1point3acres (for chinese speakers)
@@ -150,50 +175,95 @@ Check [Action Words for Engineering](https://www.engineering.cornell.edu/sites/d
 The priority of applying jobs.
 networking > company website > JobBoard
 
-Networking takes more time than other two but it is totally worthy.
+Networking takes more time than the other two but it is totally worthy.
 
-## Code, code, code
+## Code code code
+- Start with Cracking the Code Interview. Pros: There are 189 programming questions and answers. You can practice 3 ~ 5 questions for each topics in data structure and algorithm. Then repeat the process. Cons: You have to write the test cases.
+- Leetcode. Solve medium and hard questions. Pros: abundant questions and test cases. Cons: too many questions. You can join leetcode daily challenge and weekly challenge to narrow down your options.
 
+It doesn't matter which coding platform you choose, just pick one and practice on it every day.
 
+#### How to approach an coding questions?
+- Understand the question. 
+- Brute force solution
+- Complexity analysis
+- Optimize if applicable. 
+- Code
+- Review your code
+- Test. Edge cases
+
+I encourage you to code every solutions when you are practicing, but not necessary when you are interviewing. 
+
+#### Other sources
+- [Leetcode Effectively](https://dandkim.com/leetcode-effectively/)
 
 ## Study advanced cs knowledge
+(TBD)
 
-
-# How to crack the interview
+# How to crack tech interviews
     
-### Typical interview process
-- 1 round HR phone screen
-- 1 round technical screen
-- (Virtual) onsite 3 ~ 4 rounds
+## Typical interview process
+- 1 round HR phone screen (20 ~ 30mins)
+- 1 round technical screen (45mins) or online assessment (2 coding questions for 2 hrs)
+- (Virtual) onsite 3 ~ 4 rounds (45mins each round)
     - Data structure and algorithm
     - BQ
     - Others such as OOD
-- Last round. Hiring Manager ask about your technical details
+    - Last round. Hiring Manager ask about technical details
 
-### Before the interview
+[Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs) (video)
 
+## Before the interview
+- Use notebooks to record all company you interviewed. I created a [job application template](https://www.notion.so/Job-Applications-f24bdeaa305742569202a01f46349f34) on Notion
 - Company search. Basic questions "why do you wanna work here"
 - Search for interviews questions from Glassdoor/Google/leetcode/1point3acres. 
     Coding questions are arbitrary. but you will get an idea of how difficult the questions can be
 - Email HR about the process and content of the interview
 - Review your notes about coding templates such as binary search, quicksort, mergesort
-Based on my several interviews, people like to ask questions on array(interval) or string
-- Prepare for BQ
-    - 
-- Practice mock interview with friends or using educating.io, pramp
-
-### During the interview
-
-### Post interview
+- Prepare for MUST questions and behavior questions 
+- Mock interview (very important) do that even when you don't have interviews
+    - friends
+    - educating.io
+    - pramp
 
 
-### Questions about you, company, job
+### MUST questions
+There are some interview questions you can expect - questions about you, company, job
+- Tell me a bit about yourself.
+    - Think about what you want the interviewer to know about your background, experiences, and interests. Connect elements of your pitch to what the company is looking for.
 
-### Questions to ask
-https://techinterviewhandbook.org/questions-to-ask
+    - Highlight the most interesting or relevant parts of your jobs. This is your opportunity to sell yourself.
 
-### Behavior Questions
-A typical behavior questions is "tell me a time when you met a challenge/failure/success"
+    - Don’t just list off your accomplishments. Don’t get overly technical. Don’t speak too abstractly
+
+- Why do you want to work here?
+    - What do you like about this position
+    - What do you like about the team
+    - What do you like about the company, the mission
+
+- Why should we hire you?
+    - Your background, experience bring value to the company
+    - You passion about this job
+
+- Why do you leave current job
+- What do you like to do in your spare time
+- Where do you see yourself in 5 years?
+
+- Do you have any questions for me?
+
+    Sample questions 
+    - What’s a typical day like as a xxx here? 
+    - What does success look like for your team/project?
+    - What are the challenges that the company/team is facing?
+    - What do you find most challenging about being a XXX here?
+    - What’s your favorite part about working here?
+    - What would make someone the ideal xx candidate for you?
+ 
+    You can find more questions below
+    - https://techinterviewhandbook.org/questions-to-ask
+
+### Behavior Questions AKA BQ
+A behavior questions can be "tell me a time when you met a challenge/failure/success/conflict"
 
 Reasons for Behavior questions
 - Verify your past experience. You did what you said on resume
@@ -203,24 +273,17 @@ Reasons for Behavior questions
 
 All those questions can be well prepared before the interview
 
-1. Brainstorm all your experiences from work experience, project, extracurricular
+1. Brainstorm all your latest experiences from work, project, extracurricular
 2. Create a Preparation Grid and write down as many stories as possible that covers at least one area (Leadership/Teamwork/Successes/Challanges/Mistakes)
-
-||Job1|Job2|Project1|Extracurricular1|
-|-|-|-|-|-|
-|Leadership|||||
-|Teamwork|||||
-|Successes|||||
-|Challanges|||||
-|Mistakes|||||
-|Others|||||
+Check [behavior_preparation_grid](downloads/behavior_preparation_grid.xlsx) from https://www.crackingthepminterview.com/resources.html
 
 3. Master 5 best stories from your experience 
-How to define a good story?
-- The story shows that your accomplishment is substantial such as optimize/create something or solve an problem.
-- The story is easy to understand, less technical.
-- The story shows interviewers your good personalities such as creativity/curiosity/understanding/anaytical/data-driven/leadership/influence others
-- The story is about you, not teams
+
+    ***How to define a good story?***
+    - The story shows that your accomplishment is substantial such as optimize/create something or solve an problem.
+    - The story is easy to understand, less technical.
+    - The story shows interviewers your good personalities such as creativity/curiosity/understanding/anaytical/data-driven/leadership/influence others
+    - The story is about you, not teams
 
 4. Structure your story with S.A.R (Situation, Action, Result)
 
@@ -229,20 +292,49 @@ How to define a good story?
     Then organize your story with S.A.R structure 
     - Situation: background and why it mattered 
     - Action: the action you took to handle the challenge/failure/leadership/success. You can speak in bullets. First, .... Second, .... Third, ... 
-    - Result: how your actions help the team and company? If it is possible, try to quantify your impact.
+    - Result: how your actions help the team and company? If it is possible, try to make your impact measurable.
 
-5. Practice
-    - Practice with peers
-    - Practice on Pramp
+5. Follow-up questions from interviewers
+    - What do you learn from this?
+    - What would you do differently if the this situation came up again?
+    - How did the team react?
 
-Follow-up questions
-- What do you learn from this?
-- What would you do differently if the this situation came up again?
-- How the team react?
-  
+#### Other sources
+- Crack the PM Interview
+- [Grokking the Behavioral Interview](https://www.educative.io/courses/grokking-the-behavioral-interview)
+
+### Technical deep dive
+Technical deep dive is to ask you to share a technical project you worked on or technical experience you had. 
+
+You should prepare a story that includes
+- Background
+- Your actions. 
+- Describe the Trade-off of different solutions. Why did you use certain solution
+- Result of the story. Evaluate your action
+
+Follow up questions.
+- Why use this framework/database
+- Why not use other framework/database, what are the trade-offs?
+- What is the technology you use? explain it
+        
+
+## During the interview
+- Don't have any expectations. Never expect anything such as offers or failures.
+- Think before you speak. Otherwise, don't talk.  
+- Keep in mind you are learning from the interviews. 
+- Relax and enjoy.
+
+
+## Post interview
+- Make sure you get the interview result. If you don't get the result in 3 ~ 5 days, 
+send the recruiters an email and ask for the result. Sometimes, you may miss their calls.
+ 
+- Whether you are offered or not, make notes and review your interview process. 
 
 # Negotiate Job offers
-[Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+- [Tech Interview Handbook](https://techinterviewhandbook.org/negotiation). I strongly recommend you to read this about how to negotiate offers and understand compensation
+- Cracking the Code Interview. Chapter VIII - The Offer and Beyond from 
+- [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
 
 # Tech company interviews
 ## Amazon
