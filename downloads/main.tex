@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in Latex
+% Author : Helen Guo
+% Based off of: https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{microtype}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+% \titleformat{\section}{
+%   \vspace{0pt}\scshape\raggedright\normalsize
+% }{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+%vspace negative means narrow
+\titleformat{\section}
+{
+  \vspace{-1em}\scshape\raggedright\small
+} %format to be applied to the title, label, and text
+{} %specify sectioning label.
+{0em} %horizontal separation
+{} %before-code
+[\color{black}\titlerule \vspace{-7pt}] % after code
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+
+\newcommand{\myfont}{\fontsize{10pt}{10pt}\selectfont}
+% \newcommand{\myfont}{\small}
+
+
+\newcommand{\mysection}[1]{
+\myfont{#1}
+}
+\newcommand{\myitem}[1]{
+\item\myfont{
+{#1 \vspace{-7pt}}
+}
+}
+\newcommand{\resumeItemNoBullet}[1]{
+   \item[]\myfont{
+   {#1 \vspace{-2pt}}
+   }
+}
+
+\newcommand{\resumeItem}[1]{
+  \item\myfont{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\myfont#1} & \myfont#2 \\
+      \textit{\myfont#3} & \textit{\myfont #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\myfont#1} & \textit{\myfont #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \myfont#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+        \textbf{ \huge \scshape Tony Stark} \\ \vspace{2pt}
+    \myfont{{Open to relocation} $|$
+    521-521-3000 $|$
+    \href{mailto:tonystark@gmail.com}{\underline{tonystark@gmail.com}} $|$
+
+    \href{https://github.com/irtonystarkonman}{\underline{Github}} $|$
+    \href{https://www.linkedin.com/in/tonystark/}{\underline{Linkedin}} $|$
+    }
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {xx University}{city, state}
+      {Master of All Science, GPA: 4.0/4.0}{Aug 2000 -- August 2002}
+      \resumeItem{Coursework: maybe}
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+     \myitem{\textbf{Languages}{: Python, Java, JavaScript (React.js), R}}
+     \myitem{\textbf{Database}{: MySQL, PostgreSQL, MongoDB}}
+ \end{itemize}\vspace{-6pt}
+
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+  {The Avengers}{city, state}
+  {Iron Man}{Aug 2010 - Present}
+  \resumeItemListStart
+    \resumeItem{Stopped Thanos and his army to destroy humans by sacrificing my life which saved billions of lives on the earth}
+  \resumeItemListEnd
+
+
+  \resumeSubheading
+  {Stark.Inc}{city, state}
+  {CEO}{Aug 2000 - May 2020}
+  \resumeItemListStart
+    \resumeItem{Managed one of the richest companies in the world by building new weapons which brought 1000 trillion revenue}
+  \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+    {\href{https://github.com/}{\underline{\textbf{Iron Man Suit}}} $|$ \emph{high tech}} {}
+    \resumeItemListStart
+    \resumeItem{Create an Iron Man Suit powered by infinity stone}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-------Award. and honor--------
+\section{Awards and Honors}
+\resumeSubHeadingListStart
+\resumeSubheading
+{xxxx Grant}{Aug 2020}
+{Stark.Inc}{city, state}
+\resumeSubHeadingListEnd
+
+
+\section{Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \myfont{\item{
+        {$\bullet$ Writing \href{https://blog.net}{\underline{technical blogs}}: xxx followers}
+        {$\bullet$ Talk shows}
+    }}
+ \end{itemize}
+
+
+
+
+%-------------------------------------------
+\end{document}
