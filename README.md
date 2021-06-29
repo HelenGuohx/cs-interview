@@ -1,4 +1,4 @@
-Job search can be fun. This is the time when you have an in depth understanding of yourself, your past experience, and your future plans.
+> Job search can be fun. This is the time when you have an in-depth understanding of yourself, your past experience, and your future plans.
 Most of all, you will study and become a better person. 
 After three months of job search, you may say "I am more knowledgeable than me three months ago"
 
