@@ -9,10 +9,10 @@ resume/cover letter, job application, interviews, and offers,
 - You want to know what to study and how much you should study to get a job
 
 
-### What's differences between this and other materials
+### What are the differences between this and other materials
 
 - It provides short but valuable information based on experiences and other sources. In other word, it provides the meaty content.
-- It covers most stages in job search process
+- It demonstrates a comprehensive job search process
 
 ### Here is the process of job search
  
