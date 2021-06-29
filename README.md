@@ -9,32 +9,32 @@ resume/cover letter, job application, interviews, and offers,
 - You want to know what to study and how much you should study to get a job
 
 
-### What are the differences between this repository and other interview materials
+### What's differences between this and other materials
 
 - It provides short but valuable information based on experiences and other sources. In other word, it provides the meaty content.
 - It covers most stages in job search process
 
 ### Here is the process of job search
  
-<img src="img/interview_process_diagram.png" height="300" alt="To be done"/>
+<img src="img/interview_process_diagram.png" height="800" alt="To be done"/>
  
 ### Table of content
-- [Search as much information as possible](#"Search as much information as possible")
-- [Basic data structure and algorithm](#Basic data structure and algorithm)
-- [How to get related experience](#How to get related experience)
-- [Resume/cover letter](#Resume/cover letter)
-- [Daily tasks](#Daily tasks)
-    - [Tips for applying for jobs](##Tips for applying for jobs)
-    - [Code, code, code](##Code code code)
-    - [Study advanced cs knowledge](##Study advanced cs knowledge)
-- [How to crack tech interviews](#How to crack tech interviews)
-    - [Typical interview process](##Typical interview process)
-    - [Before the interview](##Before the interview)
-    - [During the interview](During the interview)
-    - [Post interview](Post interview)
-- [Negotiate Job offers](#Negotiate Job offers)
-- [Tech company interviews](#Tech company interviews)
-- [Study](#Study)
+- [Search as much information as possible](#search-as-much-information-as-possible)
+- [Basic data structure and algorithm](#basic-data-structure-and-algorithm)
+- [How to get related experience](#how-to-get-related-experience)
+- [Resume/cover letter](#resume-cover-letter)
+- [Daily tasks](#daily-tasks)
+    - [Tips for applying for jobs](#tips-for-applying-for-jobs)
+    - [Code, code, code](#code-code-code)
+    - [Study advanced cs knowledge](#study-advanced-cs-knowledge)
+- [How to crack tech interviews](#how-to-crack-tech-interviews)
+    - [Typical interview process](#typical-interview-process)
+    - [Before the interview](#before-the-interview)
+    - [During the interview](#during-the-interview)
+    - [Post interview](#post-interview)
+- [Negotiate job offers](#negotiate-job-offers)
+- [Tech company interviews](#tech-company-interviews)
+- [Study](#study)
 
 
 # Search as much information as possible
@@ -95,7 +95,7 @@ from the sources below.
     
 The best way to learn a new skill is to imitate. 
 
-# Resume/cover letter 
+# Resume cover letter 
 ### Resume tips
 - One page long. More than one page or less than one page is bad if you have less than 10 years experience.
 - Follow X-Y-Z rule for employment experience: "Accomplished X by implementing
@@ -349,7 +349,7 @@ send the recruiters an email and ask for the result. Sometimes, you may miss the
  
 - Whether you are offered or not, make notes and review your interview process. 
 
-# Negotiate Job offers
+# Negotiate job offers
 - [Tech Interview Handbook](https://techinterviewhandbook.org/negotiation). I strongly recommend you to read this about how to negotiate offers and understand compensation
 - Cracking the Code Interview. Chapter VIII - The Offer and Beyond from 
 - [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
