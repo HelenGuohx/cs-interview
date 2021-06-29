@@ -4,16 +4,22 @@ After three months of job search, you may say "I am more knowledgeable than me t
 
 ### Who should read this
 - You are looking for jobs in software engineering 
-- You want to know those things that helps you land a job including 
+- You want to know those things that help you land a job, including 
 resume/cover letter, job application, interviews, and offers, 
 - You want to know what to study and how much you should study to get a job
 
 
+### What are the differences between this repository and other interview materials
+
+- It provides short but valuable information based on experiences and other sources. In other word, it provides the meaty content.
+- It covers most stages in job search process
+
 ### Here is the process of job search
- ![To be done](img/Interview_process_diagram.png)
+ 
+<img src="img/interview_process_diagram.png" height="300" alt="To be done"/>
  
 ### Table of content
-- [Search as much information as possible](#Search as much information as possible)
+- [Search as much information as possible](#"Search as much information as possible")
 - [Basic data structure and algorithm](#Basic data structure and algorithm)
 - [How to get related experience](#How to get related experience)
 - [Resume/cover letter](#Resume/cover letter)
@@ -33,16 +39,19 @@ resume/cover letter, job application, interviews, and offers,
 
 # Search as much information as possible
 
-Before you start to take any action, it would be a good idea to learn from others' experience.
+Before you start to take any action, it would be a good idea to learn from others' experiences.
 It can make sure you are in the right track of landing a job and 
 help you avoid some failures. 
 First of all, go through this repository.
+
 
 
 If you have enough time, read the following materials to prepare for your interviews: 
 - Cracking the coding interview by Gayle Laakmann McDowel
 - [How to Break Into the Tech Industry—a Guide to Job Hunting and Tech Interviews](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/)
 - [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+- [Tech Interview Handbook](https://techinterviewhandbook.org/)
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 
 # Basic data structure and algorithm
@@ -181,7 +190,7 @@ Networking takes more time than the other two but it is totally worthy.
 - Start with Cracking the Code Interview. Pros: There are 189 programming questions and answers. You can practice 3 ~ 5 questions for each topics in data structure and algorithm. Then repeat the process. Cons: You have to write the test cases.
 - Leetcode. Solve medium and hard questions. Pros: abundant questions and test cases. Cons: too many questions. You can join leetcode daily challenge and weekly challenge to narrow down your options.
 
-It doesn't matter which coding platform you choose, just pick one and practice on it every day.
+It doesn't matter which coding platform you choose, pick one and practice on the platform every day.
 
 #### How to approach an coding questions?
 - Understand the question. 
@@ -192,10 +201,11 @@ It doesn't matter which coding platform you choose, just pick one and practice o
 - Review your code
 - Test. Edge cases
 
-I encourage you to code every solutions when you are practicing, but not necessary when you are interviewing. 
+I encourage you to code every solution when you are practicing, but unnecessary when you are interviewing. 
 
-#### Other sources
+### Other sources
 - [Leetcode Effectively](https://dandkim.com/leetcode-effectively/)
+
 
 ## Study advanced cs knowledge
 (TBD)
@@ -203,13 +213,17 @@ I encourage you to code every solutions when you are practicing, but not necessa
 # How to crack tech interviews
     
 ## Typical interview process
-- 1 round HR phone screen (20 ~ 30mins)
+- 1 round HR phone screen (20 ~ 30 mins)
 - 1 round technical screen (45mins) or online assessment (2 coding questions for 2 hrs)
-- (Virtual) onsite 3 ~ 4 rounds (45mins each round)
+- (Virtual) onsite 3 ~ 6 rounds (45 ~ 60 mins each round)
     - Data structure and algorithm
-    - BQ
-    - Others such as OOD
-    - Last round. Hiring Manager ask about technical details
+    - Behavior questions
+    - Technical/project deep dive
+    
+    Optional
+    - OOD
+    - System Design
+    
 
 [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs) (video)
 
@@ -217,14 +231,18 @@ I encourage you to code every solutions when you are practicing, but not necessa
 - Use notebooks to record all company you interviewed. I created a [job application template](https://www.notion.so/Job-Applications-f24bdeaa305742569202a01f46349f34) on Notion
 - Company search. Basic questions "why do you wanna work here"
 - Search for interviews questions from Glassdoor/Google/leetcode/1point3acres. 
-    Coding questions are arbitrary. but you will get an idea of how difficult the questions can be
+    Coding questions are arbitrary, but you will get an idea of how difficult the questions can be
 - Email HR about the process and content of the interview
 - Review your notes about coding templates such as binary search, quicksort, mergesort
 - Prepare for MUST questions and behavior questions 
-- Mock interview (very important) do that even when you don't have interviews
-    - friends
-    - educating.io
-    - pramp
+- Mock interview (very important). Do that even when you don't have interviews
+    - Friends
+    - Educating.io
+    - Pramp
+
+### Coding interview
+- Whiteboard 
+    - [Amazon Coding Sample](https://www.youtube.com/watch?v=mjZpZ_wcYFg) 
 
 
 ### MUST questions
@@ -242,7 +260,7 @@ There are some interview questions you can expect - questions about you, company
     - What do you like about the company, the mission
 
 - Why should we hire you?
-    - Your background, experience bring value to the company
+    - How your background, experience match the job 
     - You passion about this job
 
 - Why do you leave current job
@@ -338,10 +356,11 @@ send the recruiters an email and ask for the result. Sometimes, you may miss the
 
 # Tech company interviews
 ## Amazon
-[Cracking the top Amazon coding interview questions](https://www.educative.io/blog/crack-amazon-coding-interview-questions#questions)
-
-   
-
+- [Cracking the top Amazon coding interview questions](https://www.educative.io/blog/crack-amazon-coding-interview-questions#questions)
+- Amazon behavior question   
+Our interviews are rooted in behavioral-based questions which ask about past situations or challenges you’ve faced and how you handled them, using Leadership Principles to guide the discussion. We avoid brain teasers (e.g., “How many windows are in Manhattan?”) as part of the interview process. We’ve researched this approach and have found that those types of questions are unreliable when it comes to predicting a candidate’s success at Amazon.
+    - https://www.amazon.jobs/en/principles
+    
 
 # Study
 
