@@ -1,3 +1,5 @@
+Read [this](https://github.com/firstcontributions/first-contributions) about how to become a contributor for the repository. Only 4 steps: *fork -> clone -> edit -> pull request*
+
 > Job search can be fun. This is the time when you have an in-depth understanding of yourself, your past experience, and your future plans.
 Most of all, you will study and become a better person. 
 After three months of job search, you may say "I am more knowledgeable than me three months ago"
